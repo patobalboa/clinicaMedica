@@ -1,7 +1,7 @@
 # 🏥 Taller de Recuperación — Clínica Médica
 ## ASP.NET Core MVC con C#
 
-> **Para el alumno:** Este proyecto ya tiene la base de datos creada.
+> Este proyecto ya tiene la base de datos creada, tu debes tener la aprobada previamente por el profesor.
 > Tu trabajo es construir la aplicación web paso a paso siguiendo las guías.
 > Cada guía es independiente — si tienes problemas con una parte, puedes pedir ayuda sin que afecte el resto.
 
