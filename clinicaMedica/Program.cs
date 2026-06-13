@@ -1,6 +1,12 @@
+using clinicaMedica.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<ClinicaMedicaContext>(opciones =>
+    opciones.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'ClinicaMedicaContext' not found.")));
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -14,6 +20,7 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/clinicaMedica.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/x-pagedlist/X.PagedList.Mvc.Core.css" />
 </head>
 <body>
     <header>
@@ -21,10 +22,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-controller="Pacientes" asp-action="Index">Pacientes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link" asp-controller="Medicos" asp-action="Index">Médicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Especialidads" asp-action="Index">Especialidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cita" asp-action="Index">Citas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Tratamientos" asp-action="Index">Tratamientos</a>
                         </li>
                     </ul>
                 </div>
