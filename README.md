@@ -27,7 +27,6 @@ Un sistema web para administrar una clínica médica con:
 | 03 | [Modelos y scaffolding](./guias/03-modelos-scaffolding.md) | Generar modelos desde la BD, crear CRUD automático | EV2 |
 | 04 | [Validaciones y formularios](./guias/04-validaciones-formularios.md) | DataAnnotations, ModelState, Tag Helpers | EV2 |
 | 05 | [Subir imágenes](./guias/05-imagenes-iformfile.md) | IFormFile, guardar y mostrar fotos | EV2 |
-| 06 | [Paginación con X.PagedList](./guias/06-paginacion.md) | X.PagedList.Mvc.Core | EV2 |
 | 07 | [Exportar Excel y PDF](./guias/07-exportar-excel-pdf.md) | ClosedXML, QuestPDF | EV2 |
 | 08 | [Login y Roles (Identity)](./guias/08-identity-login-roles.md) | Register, Login, Logout, Roles | EV3 |
 | 09 | [Filtros y ordenación](./guias/09-filtros-ordenacion.md) | Buscar, ordenar columnas, combinar con paginación | EV3 |
